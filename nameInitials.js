@@ -6,8 +6,8 @@
 */
 
 function createInitialsFromName(name) {
-  // Complete the function
-  
+ 
+  //initializing a string to save the initials to print them in the same line
   let str = "";
   arr = name.split(" ");
   
@@ -34,6 +34,5 @@ function createInitialsFromName(name) {
   return(str);
 }
 
-
-//console.log(createInitialsFromName(name))
-module.exports = createInitialsFromName;
+//function call
+console.log(createInitialsFromName(name))
